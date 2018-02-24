@@ -15,7 +15,7 @@ public class Guess {
 	
 	int answer = (int) Math.floor(Math.random() * 10);
 	
-	if(answer = inputUser)
+	if(answer = inputUser) // this is not working i think it may be a converions issue
 	{
 		
 		System.out.println("Your guess was " + inputUser + " and that is correct!");
