@@ -10,7 +10,7 @@ public class Guess {
 	public static void Guess(String[] args)
 	{
 		
-	System.out.print("Guess A Random Number");
+	System.out.print("Guess A Random Number from 1 - 10");
     Scanner inputUser = new Scanner(System.in);
 	
 	int answer = (int) Math.floor(Math.random() * 10);
